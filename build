@@ -29,8 +29,8 @@ if hash docker 2>/dev/null; then
     # Folder setup
     echo -e "${BLUE}❯ ${YELLOW}Folder setup"
     tput sgr0
-    mkdir -p {RPMS,SRPMS,DEPS,SPECS,SOURCES}
     rm -rf RPMS/* SRPMS/*
+    mkdir -p {RPMS,SRPMS,DEPS,SPECS,SOURCES}
 
     # Pull latest builder image
     echo -e "${BLUE}❯ ${YELLOW}Pulling docker image: ${DOCKER_IMAGE}:${DOCKER_TAG}"
