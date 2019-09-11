@@ -1,0 +1,7 @@
+{
+  "publish": {
+    "PACKAGE": "aminal",
+    "GH_USER": "jc21-rpm",
+    "VERSION": "0.9.0"
+  }
+}
